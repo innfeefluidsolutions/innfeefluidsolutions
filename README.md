@@ -1,16 +1,31 @@
-### Hi there 👋
+# Argon Web Builder by Creative Tim
 
-<!--
-**innfeefluidsolutions/innfeefluidsolutions** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 1. Getting Started
 
-Here are some ideas to get you started:
+Project's source files are placed in ./src/ directory. 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* ./src/assets - default static files (eg. image placeholders). You should replace them with your own files.
+
+* ./src/scss/ - Sass sources used to build Argon Design System theme. Variables used in Theme Customizer are located in _custom-variables.scss file.
+
+* ./src/*.pug - All your pages (templates) are stored in separated .pug files.
+
+## 2. Installation
+
+```
+# Install dependencies
+npm install 
+
+# Run dev server with live preview (Browsersync)
+gulp watch
+
+# Or make production build
+gulp build
+```
+
+## 3. Contact
+
+If you have found any bugs in the Argon Web Builder, have any questions, 
+comments or ideas for new features feel free to contact us:
+
+support@creative-tim.com
